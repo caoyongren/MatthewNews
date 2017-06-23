@@ -33,7 +33,7 @@ public class MainPresenterImpl implements MainPresenter {
                 mMainView.switchTwoWeather();
                 break;
             case R.id.navigation_item_about:
-                mMainView.switch2About();
+                mMainView.switchTwoAbout();
                 break;
             default:
                 mMainView.switchTwoNews();
