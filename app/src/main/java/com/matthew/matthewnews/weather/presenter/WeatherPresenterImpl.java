@@ -10,13 +10,7 @@ import com.matthew.matthewnews.weather.view.WeatherView;
 
 import java.util.List;
 
-/**
- * Description :
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 2015/12/22
- */
+
 public class WeatherPresenterImpl implements WeatherPresenter, WeatherModelImpl.LoadWeatherListener {
 
     private WeatherView mWeatherView;

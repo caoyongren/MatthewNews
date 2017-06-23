@@ -8,14 +8,6 @@ import com.matthew.matthewnews.news.model.NewsModelImpl;
 import com.matthew.matthewnews.news.model.OnLoadNewsDetailListener;
 import com.matthew.matthewnews.news.view.NewsDetailView;
 
-
-/**
- * Description :
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 2015/12/21
- */
 public class NewsDetailPresenterImpl implements NewsDetailPresenter, OnLoadNewsDetailListener {
 
     private Context mContent;

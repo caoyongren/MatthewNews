@@ -18,14 +18,6 @@ import java.net.CookieManager;
 import java.net.CookiePolicy;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
-/**
- * Description : OkHttp网络连接封装工具类
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 15/12/17
- */
 public class OkHttpUtils {
 
     private static final String TAG = "OkHttpUtils";

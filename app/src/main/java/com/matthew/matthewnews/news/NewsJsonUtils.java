@@ -12,13 +12,6 @@ import com.matthew.matthewnews.utils.LogUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Description :
- * Author :
- * Email  :
- * Blog   :
- * Date   :
- */
 public class NewsJsonUtils {
 
     private final static String TAG = "NewsJsonUtils";

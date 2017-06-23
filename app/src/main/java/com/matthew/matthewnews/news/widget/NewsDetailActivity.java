@@ -19,13 +19,6 @@ import org.sufficientlysecure.htmltextview.HtmlTextView;
 import me.imid.swipebacklayout.lib.SwipeBackLayout;
 import me.imid.swipebacklayout.lib.app.SwipeBackActivity;
 
-/**
- * Description : 新闻详情界面
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 15/12/19
- */
 public class NewsDetailActivity extends SwipeBackActivity implements NewsDetailView {
 
     private NewsBean mNews;

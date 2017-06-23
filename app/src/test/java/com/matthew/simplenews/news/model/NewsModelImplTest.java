@@ -1,12 +1,5 @@
 package com.matthew.simplenews.news.model;
 
-/**
- * Description :
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 15/12/19
- */
 public class NewsModelImplTest {
 /*
     @Test

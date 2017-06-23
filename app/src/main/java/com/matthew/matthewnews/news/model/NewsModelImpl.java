@@ -10,13 +10,7 @@ import com.matthew.matthewnews.utils.OkHttpUtils;
 
 import java.util.List;
 
-/**
- * Description : 新闻业务处理类
- * Author :
- * Email  :
- * Blog   :
- * Date   :
- */
+
 public class NewsModelImpl implements NewsModel {
 
     /**

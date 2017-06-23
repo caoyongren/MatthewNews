@@ -12,13 +12,6 @@ import com.matthew.matthewnews.utils.LogUtils;
 
 import java.util.List;
 
-/**
- * Description :
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 15/12/18
- */
 public class NewsPresenterImpl implements NewsPresenter, OnLoadNewsListListener {
 
     private static final String TAG = "NewsPresenterImpl";
