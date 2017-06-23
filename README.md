@@ -1,18 +1,7 @@
 # SimpleNews
 基于Material Design和MVP的新闻客户端
 
-# Screenshot
-###### 新闻列表
-![image](https://raw.githubusercontent.com/liuling07/SimpleNews/master/screenshot/news.png)  
-
-###### 图片列表
-![image](https://raw.githubusercontent.com/liuling07/SimpleNews/master/screenshot/images.jpg)  
-
-###### 天气
-![image](https://raw.githubusercontent.com/liuling07/SimpleNews/master/screenshot/weather.jpg)  
-
-###### 侧滑菜单
-![image](https://raw.githubusercontent.com/liuling07/SimpleNews/master/screenshot/drawer.png)  
+ 
 
 # License
 Copyright 2015 liuling
