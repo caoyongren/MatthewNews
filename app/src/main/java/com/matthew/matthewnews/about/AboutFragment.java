@@ -1,4 +1,4 @@
-package com.matthew.matthewnews.about.widget;
+package com.matthew.matthewnews.about;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
