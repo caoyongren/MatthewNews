@@ -6,9 +6,9 @@ import java.util.List;
 
 /**
  * Description : 新闻列表加载回调
- * Author : AstroGypsophila
- * Github  : https://github.com/AstroGypsophila
- * Date   : 2016/8/28
+ * Author :
+ * Github  :
+ * Date   :
  */
 public interface OnLoadNewsListListener {
 

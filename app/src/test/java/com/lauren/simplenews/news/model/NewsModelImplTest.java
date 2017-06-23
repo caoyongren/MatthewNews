@@ -1,9 +1,5 @@
 package com.lauren.simplenews.news.model;
 
-import com.lauren.simplenews.utils.OkHttpUtils;
-
-import org.junit.Test;
-
 /**
  * Description :
  * Author : lauren
@@ -12,7 +8,7 @@ import org.junit.Test;
  * Date   : 15/12/19
  */
 public class NewsModelImplTest {
-
+/*
     @Test
     public void testLoadNews() throws Exception {
         new NewsModelImpl().loadNews("http://c.m.163.com/nc/article/headline/T1348647909107/0-5.html",
@@ -29,4 +25,5 @@ public class NewsModelImplTest {
                 });
 
     }
+    */
 }

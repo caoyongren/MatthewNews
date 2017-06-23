@@ -26,6 +26,12 @@ import com.lauren.simplenews.weather.widget.WeatherFragment;
  */
 public class MainActivity extends AppCompatActivity implements MainView {
 
+    /*
+    * AppCompatActivity 和 Activity的区别：
+    * 1. AppCompatActivity是默认带标题的。
+    * 2. AppCompatActivity和repquestWindowFeature(Window.FEATURE_NO_TITLE);有冲突。
+    * 3. 当活动继承AppCompatActivity是在设置取消标题则程序直接挂掉。
+    * */
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mDrawerToggle;
     private Toolbar mToolbar;
@@ -46,9 +52,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
         mDrawerLayout.setDrawerListener(mDrawerToggle);
         mNavigationView = (NavigationView) findViewById(R.id.navigation_view);
         setupDrawerContent(mNavigationView);
-
         mMainPresenter = new MainPresenterImpl(this);
-
         switch2News();
     }
 
