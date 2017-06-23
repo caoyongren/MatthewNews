@@ -1,5 +1,7 @@
 package com.lauren.simplenews.utils;
 
+import com.lauren.matthewnews.utils.JsonUtils;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
