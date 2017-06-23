@@ -1,4 +1,4 @@
-package com.matthew.news.commons;
+package com.matthew.news.constants;
 
 /**
  * Description : 接口API的URL

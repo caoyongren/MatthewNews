@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
         mNavigationView = (NavigationView) findViewById(R.id.navigation_view);
         setupDrawerContent(mNavigationView);
         mMainPresenter = new MainPresenterImpl(this);
-        switch2News();
+        switchTwoNews();
     }
 
     @Override
@@ -84,25 +84,25 @@ public class MainActivity extends AppCompatActivity implements MainView {
     }
 
     @Override
-    public void switch2News() {
+    public void switchTwoNews() {
         getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new NewsFragment()).commit();
         mToolbar.setTitle(R.string.navigation_news);
     }
 
     @Override
-    public void switch2Images() {
+    public void switchTwoImages() {
         getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new com.matthew.news.images.widget.ImageFragment()).commit();
         mToolbar.setTitle(R.string.navigation_images);
     }
 
     @Override
-    public void switch2Weather() {
+    public void switchTwoWeather() {
         getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new WeatherFragment()).commit();
         mToolbar.setTitle(R.string.navigation_weather);
     }
 
     @Override
-    public void switch2About() {
+    public void switchTwoAbout() {
         getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new AboutFragment()).commit();
         mToolbar.setTitle(R.string.navigation_about);
     }

@@ -9,7 +9,7 @@ import android.os.Build;
 import android.text.TextUtils;
 
 import com.matthew.news.beans.WeatherBean;
-import com.matthew.news.commons.Urls;
+import com.matthew.news.constants.Urls;
 import com.matthew.news.utils.LogUtils;
 import com.matthew.news.utils.OkHttpUtils;
 import com.matthew.news.weather.WeatherJsonUtils;

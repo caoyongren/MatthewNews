@@ -8,8 +8,8 @@ package com.matthew.news.main.view;
  * Date   : 15/12/13
  */
 public interface MainView {
-    void switch2News();
-    void switch2Images();
-    void switch2Weather();
-    void switch2About();
+    void switchTwoNews();
+    void switchTwoImages();
+    void switchTwoWeather();
+    void switchTwoAbout();
 }

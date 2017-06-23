@@ -2,7 +2,7 @@ package com.matthew.news.news.presenter;
 
 
 import com.matthew.news.beans.NewsBean;
-import com.matthew.news.commons.Urls;
+import com.matthew.news.constants.Urls;
 import com.matthew.news.news.model.NewsModel;
 import com.matthew.news.news.model.NewsModelImpl;
 import com.matthew.news.news.model.OnLoadNewsListListener;

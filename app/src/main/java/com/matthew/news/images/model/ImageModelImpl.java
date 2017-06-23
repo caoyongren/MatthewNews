@@ -1,7 +1,7 @@
 package com.matthew.news.images.model;
 
 import com.matthew.news.beans.ImageBean;
-import com.matthew.news.commons.Urls;
+import com.matthew.news.constants.Urls;
 import com.matthew.news.images.ImageJsonUtils;
 import com.matthew.news.utils.OkHttpUtils;
 

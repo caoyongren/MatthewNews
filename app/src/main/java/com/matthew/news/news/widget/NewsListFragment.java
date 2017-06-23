@@ -16,7 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.matthew.news.R;
 import com.matthew.news.beans.NewsBean;
-import com.matthew.news.commons.Urls;
+import com.matthew.news.constants.Urls;
 import com.matthew.news.news.NewsAdapter;
 import com.matthew.news.news.presenter.NewsPresenter;
 import com.matthew.news.news.presenter.NewsPresenterImpl;

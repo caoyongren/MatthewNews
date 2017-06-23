@@ -24,19 +24,19 @@ public class MainPresenterImpl implements MainPresenter {
     public void switchNavigation(int id) {
         switch (id) {
             case R.id.navigation_item_news:
-                mMainView.switch2News();
+                mMainView.switchTwoNews();
                 break;
             case R.id.navigation_item_images:
-                mMainView.switch2Images();
+                mMainView.switchTwoImages();
                 break;
             case R.id.navigation_item_weather:
-                mMainView.switch2Weather();
+                mMainView.switchTwoWeather();
                 break;
             case R.id.navigation_item_about:
                 mMainView.switch2About();
                 break;
             default:
-                mMainView.switch2News();
+                mMainView.switchTwoNews();
                 break;
         }
     }
