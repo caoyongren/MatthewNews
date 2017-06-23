@@ -8,8 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-
-import com.lauren.matthewnews.R;
+import com.matthew.matthewnews.R;
 import com.matthew.matthewnews.about.widget.AboutFragment;
 import com.matthew.matthewnews.main.presenter.MainPresenter;
 import com.matthew.matthewnews.main.presenter.MainPresenterImpl;

@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.lauren.matthewnews.R;
+import com.matthew.matthewnews.R;
 import com.matthew.matthewnews.beans.NewsBean;
 import com.matthew.matthewnews.utils.ImageLoaderUtils;
 

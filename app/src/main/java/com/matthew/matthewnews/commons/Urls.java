@@ -2,7 +2,7 @@ package com.matthew.matthewnews.commons;
 
 /**
  * Description : 接口API的URL
- * Author : lauren
+ * Author : Matthew
  * Email  : lauren.liuling@gmail.com
  * Blog   : http://www.liuling123.com
  * Date   : 15/12/13

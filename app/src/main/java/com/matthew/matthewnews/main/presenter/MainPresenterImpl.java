@@ -1,6 +1,6 @@
 package com.matthew.matthewnews.main.presenter;
 
-import com.lauren.matthewnews.R;
+import com.matthew.matthewnews.R;
 import com.matthew.matthewnews.main.view.MainView;
 
 ;

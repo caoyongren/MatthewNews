@@ -6,8 +6,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-
-import com.lauren.matthewnews.R;
+import com.matthew.matthewnews.R;
 import com.matthew.matthewnews.beans.NewsBean;
 import com.matthew.matthewnews.news.presenter.NewsDetailPresenter;
 import com.matthew.matthewnews.news.presenter.NewsDetailPresenterImpl;

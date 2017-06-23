@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.lauren.matthewnews.R;
+import com.matthew.matthewnews.R;
 import com.matthew.matthewnews.beans.WeatherBean;
 import com.matthew.matthewnews.weather.presenter.WeatherPresenter;
 import com.matthew.matthewnews.weather.presenter.WeatherPresenterImpl;
@@ -20,6 +20,7 @@ import com.matthew.matthewnews.weather.view.WeatherView;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 /**
  * Description :

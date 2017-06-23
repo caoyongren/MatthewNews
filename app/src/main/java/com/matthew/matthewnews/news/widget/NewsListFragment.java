@@ -14,8 +14,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.lauren.matthewnews.R;
+import com.matthew.matthewnews.R;
 import com.matthew.matthewnews.beans.NewsBean;
 import com.matthew.matthewnews.commons.Urls;
 import com.matthew.matthewnews.news.NewsAdapter;

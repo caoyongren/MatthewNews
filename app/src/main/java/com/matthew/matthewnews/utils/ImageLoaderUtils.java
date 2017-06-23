@@ -4,7 +4,7 @@ import android.content.Context;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.lauren.matthewnews.R;
+import com.matthew.matthewnews.R;
 
 /**
  * Description : 图片加载工具类

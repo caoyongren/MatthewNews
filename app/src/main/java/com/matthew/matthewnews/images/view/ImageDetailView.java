@@ -1,4 +1,4 @@
-package com.lauren.matthewnews.images.view;
+package com.matthew.matthewnews.images.view;
 
 /**
  * Description :

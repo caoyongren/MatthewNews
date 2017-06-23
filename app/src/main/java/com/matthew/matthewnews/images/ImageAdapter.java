@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.lauren.matthewnews.R;
+import com.matthew.matthewnews.R;
 import com.matthew.matthewnews.beans.ImageBean;
 import com.matthew.matthewnews.utils.ImageLoaderUtils;
 import com.matthew.matthewnews.utils.ToolsUtil;
