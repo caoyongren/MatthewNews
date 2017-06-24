@@ -1,12 +1,5 @@
 package com.matthew.news.constants;
 
-/**
- * Description : 接口API的URL
- * Author : Matthew
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 15/12/13
- */
 public class Urls {
 
     //http://c.m.163.com/nc/article/headline/T1348647909107/0-5.html  头条

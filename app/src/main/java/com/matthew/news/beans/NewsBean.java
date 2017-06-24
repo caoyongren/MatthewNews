@@ -2,13 +2,6 @@ package com.matthew.news.beans;
 
 import java.io.Serializable;
 
-/**
- * Description : 新闻实体类
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 15/12/19
- */
 public class NewsBean implements Serializable {
 
     /**

@@ -2,13 +2,6 @@ package com.matthew.news.beans;
 
 import java.io.Serializable;
 
-/**
- * Description :
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 15/12/22
- */
 public class ImageBean implements Serializable {
 
     private static final long serialVersionUID = 1L;
