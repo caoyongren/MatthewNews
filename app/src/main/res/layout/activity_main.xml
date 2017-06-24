@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.lauren.matthewnews.main.widget.MainActivity">
+    tools:context="com.matthew.news.main.view.activity.MainActivity">
 
     <!-- 协调者布局 -->
     <android.support.design.widget.CoordinatorLayout

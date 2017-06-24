@@ -17,6 +17,7 @@
         - beans: 实体类; 
         - utils: 工具类;
         - widget: 小部件; 类似装饰线;
+        - constants: 常亮字符串
   - 3. MVP具体应用
         
  
