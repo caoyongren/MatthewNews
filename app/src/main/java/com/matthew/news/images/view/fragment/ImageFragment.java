@@ -11,6 +11,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
+
 import com.matthew.news.R;
 import com.matthew.news.beans.ImageBean;
 import com.matthew.news.images.adapter.ImageAdapter;
@@ -21,15 +23,13 @@ import com.matthew.news.images.view.ImageView;
 import java.util.ArrayList;
 import java.util.List;
 
-
 /**
  * Description :
- * Author : matthew
+ * Author : Matthew
  */
 public class ImageFragment extends Fragment implements ImageView, SwipeRefreshLayout.OnRefreshListener {
 
     private static final String TAG = "ImageFragment";
-
     private SwipeRefreshLayout mSwipeRefreshWidget;
     private RecyclerView mRecyclerView;
     private LinearLayoutManager mLayoutManager;
@@ -61,6 +61,12 @@ public class ImageFragment extends Fragment implements ImageView, SwipeRefreshLa
 
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
         mAdapter = new ImageAdapter(getActivity().getApplicationContext());
+        mAdapter.setOnItemClickListener(new ImageAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(View view, int position) {
+                Toast.makeText(getActivity(), TAG + "DEBUG -- >" + position, Toast.LENGTH_SHORT).show();
+            }
+        });
         mRecyclerView.setAdapter(mAdapter);
         mRecyclerView.addOnScrollListener(mOnScrollListener);
         onRefresh();
@@ -82,8 +88,9 @@ public class ImageFragment extends Fragment implements ImageView, SwipeRefreshLa
             super.onScrollStateChanged(recyclerView, newState);
             if (newState == RecyclerView.SCROLL_STATE_IDLE
                     && lastVisibleItem + 1 == mAdapter.getItemCount() ) {
-                //加载更多
-                Snackbar.make(getActivity().findViewById(R.id.drawer_layout), getString(R.string.image_hit), Snackbar.LENGTH_SHORT).show();
+                //加载
+                Snackbar.make(getActivity().findViewById(R.id.drawer_layout),
+                        getString(R.string.image_hit), Snackbar.LENGTH_SHORT).show();
             }
         }
     };
@@ -100,7 +107,7 @@ public class ImageFragment extends Fragment implements ImageView, SwipeRefreshLa
         }
         mData.clear();
         mData.addAll(list);
-        mAdapter.setmDate(mData);
+        mAdapter.setData(mData);
     }
 
     @Override

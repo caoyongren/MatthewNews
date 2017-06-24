@@ -11,15 +11,22 @@ import android.widget.TextView;
 
 import com.matthew.news.R;
 import com.matthew.news.beans.ImageBean;
+import com.matthew.news.images.view.fragment.ImageFragment;
 import com.matthew.news.utils.ImageLoaderUtils;
 import com.matthew.news.utils.ToolsUtil;
 
 import java.util.List;
+  /**
+   * Description:
+   * Author: Matthew
+   * 1. 适配器参数
+   *  @param {ImageAdapter.ItemViewHolder}
+   * */
 
 public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ItemViewHolder> {
-
-    private List<ImageBean> mData;
-    private Context mContext;
+    private final static String TAG = "ImageAdapter";
+    private List<ImageBean> mListImageData; //数据源
+    private Context mContext;//上下文
     private int mMaxWidth;
     private int mMaxHeight;
 
@@ -32,23 +39,23 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ItemViewHold
                 ToolsUtil.dip2px(mContext, 96);
     }
 
-    public void setmDate(List<ImageBean> data) {
-        this.mData = data;
+    public void setData(List<ImageBean> data) {
+        this.mListImageData = data;
         this.notifyDataSetChanged();
     }
 
     @Override
     public ImageAdapter.ItemViewHolder onCreateViewHolder(ViewGroup parent,
                                                       int viewType) {
-        View v = LayoutInflater.from(parent.getContext())
+        View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item_image, parent, false);
-        ItemViewHolder vh = new ItemViewHolder(v);
+        ItemViewHolder vh = new ItemViewHolder(view);
         return vh;
     }
 
     @Override
     public void onBindViewHolder(ImageAdapter.ItemViewHolder holder, int position) {
-        ImageBean imageBean = mData.get(position);
+        ImageBean imageBean = mListImageData.get(position);
         if(imageBean == null) {
             return;
         }
@@ -64,16 +71,21 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ItemViewHold
 
     @Override
     public int getItemCount() {
-        if(mData == null) {
+        if(mListImageData == null) {
             return 0;
         }
-        return mData.size();
+        return mListImageData.size();
     }
 
     public ImageBean getItem(int position) {
-        return mData == null ? null : mData.get(position);
+        return mListImageData == null ? null : mListImageData.get(position);
     }
 
+    /**
+     * 給RecyclerView 增加監聽器的一般方式:
+     * {@link ImageFragment}
+     * 初始化后, 增加监听器的处理时间;
+     * */
     public void setOnItemClickListener(OnItemClickListener onItemClickListener) {
         this.mOnItemClickListener = onItemClickListener;
     }
@@ -101,5 +113,4 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ItemViewHold
             }
         }
     }
-
 }
