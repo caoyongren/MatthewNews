@@ -31,6 +31,11 @@ public class ImageModelImpl implements ImageModel {
         OkHttpUtils.get(url, loadNewsCallback);
     }
 
+    /**
+     * 图片加载的监听;
+     * 1. 图片加载成功;
+     * 2. 图片加载失败;
+     * */
     public interface OnLoadImageListListener {
         void onSuccess(List<ImageBean> list);
         void onFailure(String msg, Exception e);

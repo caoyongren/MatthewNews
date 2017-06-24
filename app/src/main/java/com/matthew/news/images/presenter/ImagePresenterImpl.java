@@ -28,6 +28,12 @@ public class ImagePresenterImpl implements ImagePresenter, ImageModelImpl.OnLoad
         mImageModel.loadImageList(this);
     }
 
+    /**
+     * @param list 是数据源
+     * {@ImageModelImpl}中通过implements {@ImageModel}
+     * 通过简单的接口回调方法中, 使用OkHttp获取数据.
+     * {@ImagePresenterImpl}通过暴露的接口拿到数据然后给View.
+     * */
     @Override
     public void onSuccess(List<ImageBean> list) {
         mImageView.addImages(list);
