@@ -1,4 +1,4 @@
-package com.matthew.news.images.widget;
+package com.matthew.news.images.view.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,7 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.matthew.news.R;
 import com.matthew.news.beans.ImageBean;
-import com.matthew.news.images.ImageAdapter;
+import com.matthew.news.images.adapter.ImageAdapter;
 import com.matthew.news.images.presenter.ImagePresenter;
 import com.matthew.news.images.presenter.ImagePresenterImpl;
 import com.matthew.news.images.view.ImageView;

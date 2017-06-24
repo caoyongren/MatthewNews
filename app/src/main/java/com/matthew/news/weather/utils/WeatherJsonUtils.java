@@ -1,4 +1,4 @@
-package com.matthew.news.weather;
+package com.matthew.news.weather.utils;
 
 import android.text.TextUtils;
 

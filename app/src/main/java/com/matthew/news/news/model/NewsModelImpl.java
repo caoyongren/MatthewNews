@@ -4,8 +4,8 @@ package com.matthew.news.news.model;
 import com.matthew.news.beans.NewsBean;
 import com.matthew.news.beans.NewsDetailBean;
 import com.matthew.news.constants.Urls;
-import com.matthew.news.news.NewsJsonUtils;
-import com.matthew.news.news.widget.NewsFragment;
+import com.matthew.news.news.utils.NewsJsonUtils;
+import com.matthew.news.news.view.fragment.NewsFragment;
 import com.matthew.news.utils.OkHttpUtils;
 
 import java.util.List;

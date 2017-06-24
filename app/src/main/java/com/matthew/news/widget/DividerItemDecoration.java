@@ -1,4 +1,4 @@
-package com.matthew.news.news.widget;
+package com.matthew.news.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;

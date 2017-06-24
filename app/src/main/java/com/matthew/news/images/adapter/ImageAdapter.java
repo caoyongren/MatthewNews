@@ -1,4 +1,4 @@
-package com.matthew.news.images;
+package com.matthew.news.images.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

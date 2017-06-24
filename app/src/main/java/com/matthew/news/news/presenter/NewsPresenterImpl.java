@@ -7,7 +7,7 @@ import com.matthew.news.news.model.NewsModel;
 import com.matthew.news.news.model.NewsModelImpl;
 import com.matthew.news.news.model.OnLoadNewsListListener;
 import com.matthew.news.news.view.NewsView;
-import com.matthew.news.news.widget.NewsFragment;
+import com.matthew.news.news.view.fragment.NewsFragment;
 import com.matthew.news.utils.LogUtils;
 
 import java.util.List;

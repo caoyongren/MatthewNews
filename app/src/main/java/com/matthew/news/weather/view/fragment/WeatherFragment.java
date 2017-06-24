@@ -1,4 +1,4 @@
-package com.matthew.news.weather.widget;
+package com.matthew.news.weather.view.fragment;
 
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;

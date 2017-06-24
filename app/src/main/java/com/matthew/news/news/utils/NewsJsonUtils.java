@@ -1,4 +1,4 @@
-package com.matthew.news.news;
+package com.matthew.news.news.utils;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;

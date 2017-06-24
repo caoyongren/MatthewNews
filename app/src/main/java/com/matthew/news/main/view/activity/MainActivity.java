@@ -1,4 +1,4 @@
-package com.matthew.news.main.widget;
+package com.matthew.news.main.view.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -10,11 +10,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import com.matthew.news.R;
 import com.matthew.news.about.AboutFragment;
+import com.matthew.news.images.view.fragment.ImageFragment;
 import com.matthew.news.main.presenter.MainPresenter;
 import com.matthew.news.main.presenter.MainPresenterImpl;
 import com.matthew.news.main.view.MainView;
-import com.matthew.news.news.widget.NewsFragment;
-import com.matthew.news.weather.widget.WeatherFragment;
+import com.matthew.news.news.view.fragment.NewsFragment;
+import com.matthew.news.weather.view.fragment.WeatherFragment;
 
 public class MainActivity extends AppCompatActivity implements MainView {
 
@@ -91,7 +92,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
     @Override
     public void switchTwoImages() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new com.matthew.news.images.widget.ImageFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new ImageFragment()).commit();
         mToolbar.setTitle(R.string.navigation_images);
     }
 
