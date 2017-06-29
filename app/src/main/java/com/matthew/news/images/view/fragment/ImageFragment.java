@@ -65,6 +65,7 @@ public class ImageFragment extends Fragment implements ImageView, SwipeRefreshLa
             @Override
             public void onItemClick(View view, int position) {
                 Toast.makeText(getActivity(), TAG + "DEBUG -- >" + position, Toast.LENGTH_SHORT).show();
+                //Todo:
             }
         });
         mRecyclerView.setAdapter(mAdapter);

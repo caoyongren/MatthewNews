@@ -5,7 +5,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -14,6 +13,7 @@ import com.matthew.news.beans.ImageBean;
 import com.matthew.news.images.view.fragment.ImageFragment;
 import com.matthew.news.utils.ImageLoaderUtils;
 import com.matthew.news.utils.ToolsUtil;
+import com.matthew.news.widget.view.CircleImageView;
 
 import java.util.List;
   /**
@@ -66,6 +66,8 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ItemViewHold
             height = mMaxHeight;
         }
         holder.mImage.setLayoutParams(new LinearLayout.LayoutParams(mMaxWidth, height));
+//        Bitmap bitmap = ImageLoaderUtils.convertViewToBitmap(holder.mImage);
+//        holder.mImage.setImage(bitmap);
         ImageLoaderUtils.display(mContext, holder.mImage, imageBean.getThumburl());
     }
 
@@ -97,12 +99,12 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ItemViewHold
     public class ItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         public TextView mTitle;
-        public ImageView mImage;
+        public CircleImageView mImage;
 
         public ItemViewHolder(View v) {
             super(v);
             mTitle = (TextView) v.findViewById(R.id.tvTitle);
-            mImage = (ImageView) v.findViewById(R.id.ivImage);
+            mImage = (CircleImageView) v.findViewById(R.id.ivImage);
             v.setOnClickListener(this);
         }
 
