@@ -19,6 +19,7 @@ import com.matthew.news.weather.view.fragment.WeatherFragment;
 
 public class MainActivity extends AppCompatActivity implements MainView {
     /*测试git，，，liu*/
+    /*branch*/
 
     /*
     * AppCompatActivity 和 Activity的区别：
